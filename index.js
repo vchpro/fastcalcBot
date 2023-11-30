@@ -1,6 +1,7 @@
 const { Telegraf } = require('telegraf')
 const { message } = require('telegraf/filters')
 const config = require("./config.json");
+const language = require("./language.json");
 const basicMath = require('advanced-calculator');
 
 
